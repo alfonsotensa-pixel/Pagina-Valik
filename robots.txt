@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://valik.github.io/pisos-industriales-bajio/sitemap.xml
