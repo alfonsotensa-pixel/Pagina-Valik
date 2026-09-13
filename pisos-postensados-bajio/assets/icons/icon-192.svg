@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="48" fill="#0f2444"/>
+  <g transform="translate(96, 96)">
+    <g transform="translate(-52, -4) scale(0.6, 0.42)">
+      <path fill="#F94633" d="M-40,-45 L10,0 L-40,45 L-5,45 L30,0 L-5,-45 Z" />
+    </g>
+    <text text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial Black, sans-serif" font-weight="900" font-size="82" y="-4">V</text>
+    <g transform="translate(52, -4) scale(-0.6, 0.42)">
+      <path fill="#F94633" d="M-40,-45 L10,0 L-40,45 L-5,45 L30,0 L-5,-45 Z" />
+    </g>
+    <rect x="-60" y="44" width="120" height="7" fill="#F94633" rx="3.5" />
+  </g>
+</svg>
