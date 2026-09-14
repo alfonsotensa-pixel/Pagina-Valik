@@ -8,11 +8,13 @@ document.addEventListener('DOMContentLoaded', () => {
   registerServiceWorker();
 });
 
-// Mobile Service Worker Registration
+// Mobile Service Worker Registration with Immediate Update
 function registerServiceWorker() {
   if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
     window.addEventListener('load', () => {
-      navigator.serviceWorker.register('./sw.js').catch(() => {});
+      navigator.serviceWorker.register('./sw.js').then((reg) => {
+        reg.update();
+      }).catch(() => {});
     });
   }
 }
@@ -179,7 +181,7 @@ function initLeadForm() {
         `📞 *Contacto:* ${telefono} | ${email}\n` +
         `📝 *Detalles:* ${detalles}`
       );
-      const waUrl = `https://wa.me/524428007476?text=${waText}`;
+      const waUrl = `https://wa.me/524778800970?text=${waText}`;
       const waBtn = document.getElementById('modalWhatsAppBtn');
       if (waBtn) waBtn.href = waUrl;
 

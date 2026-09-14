@@ -1,5 +1,5 @@
 // VALIK Service Worker - Mobile Performance & Caching
-const CACHE_NAME = 'valik-cache-v1';
+const CACHE_NAME = 'valik-revision-v2';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -8,6 +8,8 @@ const ASSETS_TO_CACHE = [
   './assets/icons/favicon.svg',
   './assets/icons/icon-192.svg',
   './assets/icons/icon-512.svg',
+  './assets/img/bodega-postensado-hero.jpg',
+  './assets/img/torones-postensado-grid.jpg',
   './assets/img/piso-industrial-valik.jpg'
 ];
 
